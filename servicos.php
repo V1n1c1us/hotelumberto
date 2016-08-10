@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hotel umberto - Hotel</title>
+<title>Hotel umberto - Serviços</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/hover.css" rel="stylesheet" type="text/css"/>
@@ -16,39 +16,9 @@
 </head>
 <body>
 <!-- MENU/HEADER-->
-<nav class="navbar animate top">
-  <div class="container">
-    <div class="area-logo"> <a href="http://hotelumberto.com.br/"><img src="images/logoHotel.png" alt="Hotel Umberto"> </a> </div>
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navigator">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      </div>
-      <div class="menu-contato">
-        <ul>
-          <li id="borderRight"><i class="fa fa-phone icon"> (55) 3223-1210 / (55) 3221-1270</i></li>
-          <li><i class="fa fa-envelope-o icon"> contato@hotelumberto.com.br</i></li>
-          <li><img src="images/logoFace.png"/></li>
-        </ul>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class='active'><a href="index.php" class="anchor-scroll">Home</a></li>
-          <li><a href="hotel.php" class="anchor-scroll">Hotel</a></li>
-          <li><a href="acomodacoes.php" class="anchor-scroll">Acomodações</a></li>
-          <li><a href="#">Tarifário</a></li>
-          <li><a href="informacoes.php">Informações</a></li>
-          <li><a href="#">Eventos</a></li>
-          <li><a href="#">Notícias</a></li>
-          <li><a href="#">Contatos</a></li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse --> 
-    </div>
-  </div>
-</nav>
+<?php include('inc/header.php');?>
+<!-- FIM MENU HEADER-->
+
 <!-- FIM MENU HEADER-->
 
 <div class="clearfix"></div>
@@ -58,17 +28,18 @@
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="titulo">
-          <h2>HOTEL</h2>
+          <h2>SERVIÇOS</h2>
         </div>
         <div class="texto">
           <p>Buscamos oferecer aos nossos clientes uma hospedagem aconchegante com acomodações confortáveis, disponibilizando um atendimento diferenciado e
 personalizado.</p>
         </div>
-        
         </div>
-        <div class="col-lg-6">
+        </div>
+        <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-sx-6">
        	 <div class="thumbnail">
-         	<img class="img-responsive img-hotel" src="images/img-hotel.png" alt="Hotel Umberto"/>
+         	<img class="img-responsive img-hotel" src="images/servicos/img-servicos-1.png" alt="Hotel Umberto"/>
             <div class="caption">
         <h3>ACOMODAÇÕES</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac mattis mi. Do-
@@ -76,53 +47,68 @@ nec interdum sollicitudin tempor. Fusce ut ipsum sed ante mollis imperdiet. Maur
        </div>
       	  </div>
         </div>
-       <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-sx-6">
        	 <div class="thumbnail">
-         	<img class="img-responsive img-hotel" src="images/img-hotel.png" alt="Hotel Umberto"/>
+         	<img class="img-responsive img-hotel" src="images/servicos/img-servicos-2.png" alt="Hotel Umberto"/>
             <div class="caption">
-        <h3>ACOMODAÇÕES</h3>
+        <h3>Estacionamento</h3>
+        <p>Possuímos amplo estacionamento que propicia aos nossos clientes toda comodidade, com manobrista e cobertura apropriada para seu veículo.
+E com uma localização privilegiada, bem no centro de Santa Maria.</p>
+       </div>
+      	  </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-sx-6">
+       	 <div class="thumbnail">
+         	<img class="img-responsive img-hotel" src="images/servicos/img-servicos-3.png" alt="Hotel Umberto"/>
+            <div class="caption">
+        <h3>café da manhã</h3>
+        <p>Nosso hotel oferece um excelente café da manhã, em que você pode desfrutar de nossas delicias com todo sabor e conforto para que você sinta-se em casa. Nada melhor que acordar e ser agraciado com uma excelente variedade de sabores. </p>
+       </div>
+      	  </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-sx-6">
+       	 <div class="thumbnail">
+         	<img class="img-responsive img-hotel" src="images/servicos/img-servicos-4.png" alt="Hotel Umberto"/>
+            <div class="caption">
+        <h3>bar</h3>
+        <p>Para melhor atende-los, disponibilizamos uma área de descontração em que você encontra café, chás, bebidas, salgados, torradas, sanduíches, salada de frutas e muito mais.</p>
+       </div>
+      	  </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-sx-6">
+       	 <div class="thumbnail">
+         	<img class="img-responsive img-hotel" src="images/servicos/img-servicos-5.png" alt="Hotel Umberto"/>
+            <div class="caption">
+        <h3>lavanderia tercerizada</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac mattis mi. Do-
 nec interdum sollicitudin tempor. Fusce ut ipsum sed ante mollis imperdiet. Mauris vitae ex interdum, mattis erat sit amet, bibendum neque. Nam nec fringilla felis. </p>
        </div>
       	  </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-sx-6">
        	 <div class="thumbnail">
-         	<img class="img-responsive img-hotel" src="images/img-hotel.png" alt="Hotel Umberto"/>
+         	<img class="img-responsive img-hotel" src="images/servicos/img-servicos-6.png" alt="Hotel Umberto"/>
             <div class="caption">
-        <h3>ACOMODAÇÕES</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac mattis mi. Do-
-nec interdum sollicitudin tempor. Fusce ut ipsum sed ante mollis imperdiet. Mauris vitae ex interdum, mattis erat sit amet, bibendum neque. Nam nec fringilla felis. </p>
+        <h3>auditório</h3>
+        <p>Ambiente climatizado com capacidade para 25 pessoas.</p>
        </div>
       	  </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-sx-6">
        	 <div class="thumbnail">
-         	<img class="img-responsive img-hotel" src="images/img-hotel.png" alt="Hotel Umberto"/>
+         	<img class="img-responsive img-hotel" src="images/servicos/img-servicos-6.png" alt="Hotel Umberto"/>
             <div class="caption">
-        <h3>ACOMODAÇÕES</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac mattis mi. Do-
-nec interdum sollicitudin tempor. Fusce ut ipsum sed ante mollis imperdiet. Mauris vitae ex interdum, mattis erat sit amet, bibendum neque. Nam nec fringilla felis. </p>
+        <h3>sala de reuniões</h3>
+        <p>Ambiente com ventilador de teto, com capacidade para 8 pessoas.</p>
        </div>
       	  </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-sx-6">
        	 <div class="thumbnail">
-         	<img class="img-responsive img-hotel" src="images/img-hotel.png" alt="Hotel Umberto"/>
+         	<img class="img-responsive img-hotel" src="images/servicos/img-servicos-6.png" alt="Hotel Umberto"/>
             <div class="caption">
-        <h3>ACOMODAÇÕES</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac mattis mi. Do-
-nec interdum sollicitudin tempor. Fusce ut ipsum sed ante mollis imperdiet. Mauris vitae ex interdum, mattis erat sit amet, bibendum neque. Nam nec fringilla felis. </p>
-       </div>
-      	  </div>
-        </div>
-        <div class="col-lg-6">
-       	 <div class="thumbnail">
-         	<img class="img-responsive img-hotel" src="images/img-hotel.png" alt="Hotel Umberto"/>
-            <div class="caption">
-        <h3>ACOMODAÇÕES</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac mattis mi. Do-
-nec interdum sollicitudin tempor. Fusce ut ipsum sed ante mollis imperdiet. Mauris vitae ex interdum, mattis erat sit amet, bibendum neque. Nam nec fringilla felis. </p>
+        <h3>casa círculo</h3>
+        <p>Acesse o site: <a href="">LINK</a></p>
        </div>
       	  </div>
         </div>

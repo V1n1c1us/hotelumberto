@@ -17,14 +17,14 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li class='active'><a href="index.php" class="anchor-scroll">Home</a></li>
-          <li><a href="hotel.php" class="anchor-scroll">Hotel</a></li>
-          <li><a href="acomodacoes.php" class="anchor-scroll">Acomodações</a></li>
-          <li><a href="#">Tarifário</a></li>
-          <li><a href="informacoes.php">Informações</a></li>
-          <li><a href="#">Eventos</a></li>
-          <li><a href="#">Notícias</a></li>
-          <li><a href="#">Contatos</a></li>
+          <li class='active'><a href="index.php">Home</a></li>
+          <li><a href="hotel.php">Hotel</a></li>
+          <li><a href="acomodacoes.php">Acomodações</a></li>
+          <li><a href="servicos.php">Serviços</a></li>
+          <li><a href="tarifario.php">Tarifário</a></li>
+          <li><a href="informacoes.php"><b>Informações</b></a></li>
+          <li><a href="noticias.php">Notícias</a></li>
+          <li><a href="contato.php">Contatos</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse --> 

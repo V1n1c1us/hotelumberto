@@ -33,6 +33,8 @@
 	background: none;
 	border-bottom: 2px solid #ff6900;
 }
+
+
 .navbar-toggle {
 	background: #ff6900;
 }
@@ -501,20 +503,20 @@ span.depoimento-destaque a {
 	vertical-align: top;
 	padding-left: 10px;
 }
-.cardapio-setas {
+.depoimento-setas {
 	margin: 0 auto;
 	padding-bottom: 50px;
 	width: 10%;
 }
-.cardapio-setas .fa.fa-arrow-left, .fa.fa-arrow-right {
+.depoimento-setas .fa.fa-arrow-left, .fa.fa-arrow-right {
 	color: #636363;
 	font-size: 35px;
 	width: 44%;
 }
-.cardapio-setas .fa.fa-arrow-left:hover, .fa.fa-arrow-right:hover {
+.depoimento-setas .fa.fa-arrow-left:hover, .fa.fa-arrow-right:hover {
 	color: #ff6600;
 }
-.cardapio-setas a {
+.depoimento-setas a {
 	margin: 70px 2px 0 2px;
 }
 /*************/
@@ -524,7 +526,7 @@ span.depoimento-destaque a {
 	margin-top: 30px;
 }
 .box1 {
-	border: 1px solid #ff6900;
+	border: 1px solid #ff5500;
 	height: 395px;
 }
 .box2 {
@@ -549,7 +551,7 @@ span.depoimento-destaque a {
 	font-weight: bold;
 	height: 88px;
 	line-height: 88px;
-	background: #f7a76e;
+	background: #ff5500;
 	font-family: 'Open Sans', sans-serif;
 }
 .box1 .preco {
@@ -559,7 +561,7 @@ span.depoimento-destaque a {
 	font-weight: bold;
 	height: 88px;
 	line-height: 88px;
-	background: #f7a76e;
+	background: #ff5500;
 	font-family: 'Open Sans', sans-serif;
 }
 .box1 .preco .valor {
@@ -570,14 +572,15 @@ span.depoimento-destaque a {
 	margin: 42px 27px 46px 27px;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
 }
 .box1 .baixo {
-	background: #f7a76e;
+	background: #ff5500;
 	height: 111px;
 }
 .box1 .baixo button {
 	background: #ff6900;
-	height: 30px;
+	height: 40px;
 	width: 160px;
 	border: none;
 	border-radius: 6px;
@@ -620,6 +623,7 @@ span.depoimento-destaque a {
 	margin: 42px 27px 46px 27px;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
 }
 .box2 .baixo {
 	background: #4c96ae;
@@ -627,7 +631,7 @@ span.depoimento-destaque a {
 }
 .box2 .baixo button {
 	background: #336699;
-	height: 30px;
+	height: 40px;
 	width: 160px;
 	border: none;
 	border-radius: 6px;
@@ -672,6 +676,7 @@ span.depoimento-destaque a {
 	margin: 42px 27px 46px 27px;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
 }
 .box3 .baixo {
 	background: #404040;
@@ -679,7 +684,7 @@ span.depoimento-destaque a {
 }
 .box3 .baixo button {
 	background: #888787;
-	height: 30px;
+	height: 40px;
 	width: 160px;
 	border: none;
 	border-radius: 6px;
@@ -794,17 +799,16 @@ section.inform-adicionais hr{
 }
 
 /********/
-/* CONTATO */
+/* CONTATO PAGE*/
 
 .middle-contato {
 	width: 100%;
-	height: 400px;
-	background: #ccc;
 	border-top: 3px solid #ff6900;
 }
 .middle-contato .titulo h2 {
 	margin-top: 77px;
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;	
 }
 .middle-contato .titulo:after {
 	content: " ";
@@ -815,6 +819,27 @@ section.inform-adicionais hr{
 	transform: translateX(-50%);
 	width: 10%;
 }
+.middle-contato .texto{
+	margin-top: 30px;
+	margin-bottom: -30px;	
+	font-family: 'Open Sans', sans-serif;	
+}	
+.form-contato{
+	background: #ebebeb;
+}
+.form-contato h3{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+.form-contato form{ margin-bottom: 50px;}
+.form-contato input{
+	height: 50px;
+}
+
+/********/
 
 /* SERVIÇOS*/
 .middle-servicos {
@@ -827,9 +852,9 @@ section.inform-adicionais hr{
 	margin-bottom: 35px;
 }
 .middle-servicos .texto p {
-	text-align: justify;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
+	text-align: center;
 }
 .middle-servicos .sub-texto p {
 	text-align: center;
@@ -851,6 +876,20 @@ section.inform-adicionais hr{
 	transform: translateX(-50%);
 	width: 5%;
 }
+
+.caption>h3{
+	color: #ff6900;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform:uppercase;
+}
+.thumbnail{
+	border:none !important;
+	background: #ebebeb;
+	height: 500px;
+}
+
 /*******/
 
 /*ACOMODAÇÕES*/
@@ -1055,7 +1094,6 @@ ul.mapa-site li {
 	font-size: 18px;
 }
 .eventform-con {
-	background: #fff;
 	position: relative;
 	width: 100%;
 	height: 100px;
@@ -1070,7 +1108,7 @@ ul.mapa-site li {
 	position: relative;
 }
 .eventform-con form input {
-	background: #ccc;
+	background: #ebebeb;
 }
 .eventform-con form .send {
 	width: 65px;
@@ -1079,6 +1117,7 @@ ul.mapa-site li {
 	color: white;
 	font-size: 25px;
 	border: none;
+	border-radius: 6px;
 }
 .eventform-con .form-input.search-location {
 	width: 33%;
@@ -1112,7 +1151,7 @@ ul.mapa-site li {
 .eventform-con .form-input .icon {
 	position: absolute;
 	top: 50%;
-	background: #ccc;
+	background: #ebebeb;
 	border: 0;
 	width: 40px;
 	height: 100%;
@@ -1152,3 +1191,121 @@ ul.mapa-site li {
  .newsection:last-chlid {
  margin-bottom: 0px;
 }
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 639px){
+
+/*### INDEX ###*/
+/*HEADER*/
+.navbar-toggle{
+	margin-top: 30px;
+    padding: 15px 15px;
+}
+/**/
+.banner-titulo h1{
+	font-size: 25px;
+	margin-top: auto;
+}
+
+.eventform-con {
+    height: auto;
+	text-align:center;    
+}
+.eventform-con form input {
+    background: #ebebeb;
+}
+.eventform-con .form-input{
+	float: none;
+}
+.eventform-con .form-input:last-child {
+	padding: 5px;
+}
+
+.eventform-con .form-input .icon {
+	background: #ebebeb;
+	top: 26px;
+    right: 6px;
+    height: 39px;
+}
+
+.eventform-con form .send{
+	margin-top: 20px;
+}
+
+.middle {
+    margin-top: 25px;
+}
+
+.slide-servicos-itens-xs-sm{
+	margin-top: 20px;
+}
+.btn-verTodos{
+    margin-left: 0;
+}
+
+.box1, .box2, .box3{
+	margin-bottom: 20px;
+}
+/*DEPOIMENTOS*/
+.depoimento-setas{
+	width: 100%;
+	text-align:center;
+}
+.depoimento-setas .fa.fa-arrow-right{
+	margin-left: -30%;
+}
+/**/
+
+/*###*/
+
+.btn-verTodos{
+    margin-left: 0;
+}
+
+.middle-hotel .texto p,
+.middle-servicos .texto p,
+.middle-acomodacoes .texto p,
+.middle-informacoes .texto p,
+.middle-noticias .texto p{
+	text-align:center;
+}
+
+	
+
+
+
+/*SERVIÇOS*/
+
+.thumbnail{
+	height: auto;
+}
+
+/**/
+
+
+/*FOOTER*/
+ul.mapa-site li{
+	text-align:center;
+} 
+.contato ul.contato li{
+	font-size:14px;
+}
+
+.copyright .copy{
+	text-align:center;
+}
+/**/	
+}
+
+
+
+
+
+
+
+
+
+
+

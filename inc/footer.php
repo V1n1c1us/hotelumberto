@@ -1,7 +1,7 @@
 <section class="contato">
 <div class="container">
 <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
     <h2>MAPA DO SITE</h2>
     <ul class="mapa-site">
       <li>Home</li>
@@ -14,7 +14,7 @@
       <li>Contatos</li>
     </ul>
   </div>
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
     <h2>CONTATO</h2>
 <ul class="contato">
       <li> <i class="fa fa-map-marker icone"></i> Rua: Pinheiro Machado, 2310 </li>
@@ -24,7 +24,7 @@
     </ul>
 
   </div>
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
     <h2>Facebook</h2>
     <ul class="contato">
       <li><i class="fa fa-envelope"></i> contato@hotelumberto.com.br</li>
