@@ -70,10 +70,9 @@
             </div>
          </div>
       </section>
-      <div class="container">
+      <div class="container hidden-lg hidden-md">
          <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 eventform-con hidden-lg">
-               <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 eventform-con hidden-lg">
+               <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 eventform-con">
                   <form action="recebe.php" method="post">
                      <div class="col-lg-6">
                         <div class="row">
@@ -280,25 +279,10 @@
                   </div>
                </div>
             </div>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
             <div class="row">
-               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-2"></div>
-               <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
-                  <button class="btn-verTodos">VER TODOS</button>
+               <div class="action">
+	               <button class="button01"><a href="servicos.php">VER TODOS</a></button>
                </div>
-               <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"></div>
             </div>
          </div>
          <!-- DEPOIMENTOS -->
@@ -335,11 +319,13 @@
                                  <div class="depoimento-name"><b>Jurandir Tavares</b>, Profissão</div>
                               </div>
                            </div>
-                           <div class="depoimento-setas"> <a id="left" onclick="menuList('pasteis-p3')"><i class="fa fa-arrow-left"></i></a> <a id="right" onclick="menuList('pasteis-p2')"><i class="fa fa-arrow-right"></i></a> </div>
+                          </div>
                         </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                                        
+                        <div class="row">
+                        <div class="depoimento-setas"> <a id="left" onclick="menuList('pasteis-p3')"><i class="fa fa-arrow-left"></i></a> <a id="right" onclick="menuList('pasteis-p2')"><i class="fa fa-arrow-right"></i></a> </div>
                      </div>
-                  </div>
+  </div>
                </div>
             </div>
          </div>
@@ -360,7 +346,9 @@
                         <p>Apartamento com TV a cabo e  Ar - condicionado</p>
                      </div>
                      <div class="baixo">
-                        <button>Detalhes</button>
+                     <div class="action-tarifario">
+                        <button class="button-tarifario1">Detalhes</button>
+                     </div>
                      </div>
                   </div>
                </div>
@@ -372,7 +360,9 @@
                         <p>Apartamento com TV a cabo e  Ar - condicionado</p>
                      </div>
                      <div class="baixo">
-                        <button>Detalhes</button>
+                                             <div class="action-tarifario">
+                        <button class="button-tarifario2">Detalhes</button>
+                     </div>
                      </div>
                   </div>
                </div>
@@ -382,17 +372,17 @@
                      <div class="preco" id="ultimo"> R$ <span class="valor">195</span><span class="zero">,00</span> </div>
                      <div class="meio"> <span>Apartamento com TV a cabo e  Ar - condicionado</span> </div>
                      <div class="baixo">
-                        <button>Detalhes</button>
+                                             <div class="action-tarifario">
+                        <button class="button-tarifario3">Detalhes</button>
+                     </div>
                      </div>
                   </div>
                </div>
             </div>
-            <div class="row">
-               <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"></div>
-               <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
-                  <button class="btn-verTodos">MAIS OPÇÕES</button>
+                       <div class="row">
+               <div class="action">
+                  <button class="button01"><a href="#">MAIS OPÇÕES</a></button>
                </div>
-               <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"></div>
             </div>
          </div>
          </div>

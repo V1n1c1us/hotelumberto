@@ -69,9 +69,16 @@
 </article>
 </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
     				<div class="noticias-setas"> <a id="left" onclick="menuList('pasteis-p3')"><i class="fa fa-arrow-left"></i></a> <a id="right" onclick="menuList('pasteis-p2')"><i class="fa fa-arrow-right"></i></a> </div>
+                    
 </div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+</div>
+
 </div>
 </div>
 </section>
