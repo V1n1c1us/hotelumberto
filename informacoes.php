@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
 <title>Hotel umberto - Informações</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/hover.css" rel="stylesheet" type="text/css"/>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-<link href="css/datepicker.css" rel="stylesheet" type="text/css"/>
-<script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
+
 </head>
 <body>
 <!-- MENU/HEADER-->
@@ -76,7 +76,7 @@
       <h3><b>INFORMAÇÕES IMPORTANTES</b></h3>
     </div>
   </div>
-  <div class="row">
+  <div class="row informacoes-row">
     <div class="inform-titulo">
       <div class="col-lg-4">
         <p>Menores de 18 anos <b>somente</b> acompanhado dos pais ou responsáveis, sendo <b>obrigatória</b> a apresentação do documento de identificação;</p>

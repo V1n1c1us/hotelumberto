@@ -4,16 +4,12 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
 <title>Hotel umberto - Café da Manhã</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/hover.css" rel="stylesheet" type="text/css"/>
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-<link href="css/datepicker.css" rel="stylesheet" type="text/css"/ media="screen">
-<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-
-<script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -67,7 +63,7 @@
         	<img class="img-responsive" src="images/cafe/thumb/img-cafe-10.JPG" alt="Café da Manhã"/>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    				<div class="noticias-setas"> <a id="left" onclick="menuList('pasteis-p3')"><i class="fa fa-arrow-left"></i></a> <a id="right" onclick="menuList('pasteis-p2')"><i class="fa fa-arrow-right"></i></a> </div>
+    				<div class="setas"> <a id="left" onclick="menuList('pasteis-p3')"><i class="fa fa-arrow-left"></i></a> <a id="right" onclick="menuList('pasteis-p2')"><i class="fa fa-arrow-right"></i></a> </div>
 </div>
    </div>
   </div>

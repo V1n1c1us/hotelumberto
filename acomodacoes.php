@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
 <title>Hotel umberto - Hotel</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -69,10 +70,11 @@
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
         	<img class="img-responsive" src="images/acomodacoes/thumb/img-acomodacoes-11.JPG" alt="Acomodações"/>
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    				<div class="noticias-setas"> <a id="left" onclick="menuList('pasteis-p3')"><i class="fa fa-arrow-left"></i></a> <a id="right" onclick="menuList('pasteis-p2')"><i class="fa fa-arrow-right"></i></a> </div>
-</div>
+
    </div>
+           <div class="row">
+    				<div class="setas"> <a id="left" onclick="menuList('pasteis-p3')"><i class="fa fa-arrow-left"></i></a> <a id="right" onclick="menuList('pasteis-p2')"><i class="fa fa-arrow-right"></i></a> </div>
+</div>
   </div>
 </section>
 

@@ -3,15 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hotel umberto - Hotel</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/hover.css" rel="stylesheet" type="text/css"/>
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-<link href="css/datepicker.css" rel="stylesheet" type="text/css"/>
-<script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
 </head>
 <body>
 <!-- MENU/HEADER-->
@@ -40,7 +38,7 @@
 <section class="contato">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <h2>MAPA DO SITE</h2>
         <ul class="mapa-site">
           <li>Home</li>
@@ -53,7 +51,7 @@
           <li>Contatos</li>
         </ul>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
         <h2>CONTATO</h2>
         <ul class="contato">
           <li> <i class="fa fa-map-marker icone"></i> Rua: Pinheiro Machado, 2310 </li>
@@ -62,7 +60,7 @@
           <li style="margin-left: 20px; font-weight:700; font-family: 'Open Sans', sans-serif;"> Estamos localizados em frente ao Hospital de Caridade</li>
         </ul>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
         <h2>Facebook</h2>
         <ul class="contato">
           <li><i class="fa fa-envelope"></i> contato@hotelumberto.com.br</li>
@@ -98,13 +96,11 @@
           <div class="form-group">
             <textarea name="mensagem" class="form-control" rows="6" placeholder="Mensagem"></textarea>
           </div>
-            <div class="row">
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-      <button class="btn-verTodos">ENVIAR</button>
-    </div>
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-  </div>
+                       <div class="row">
+               <div class="action">
+                  <button class="button01" type="submit"><a href="#">ENVIAR</a></button>
+               </div>
+            </div>
         </form>
       </div>
       <div class="col-lg-3"></div>

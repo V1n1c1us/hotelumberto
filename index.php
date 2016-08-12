@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
       <title>Hotel umberto</title>
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
@@ -39,7 +40,7 @@
                   <h1><span>Uma estadia para você sentir-se em casa</span></h1>
                </div>
             </div>
-            <div class="row  hidden-xs">
+            <div class="row hidden-sm hidden-xs">
                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 eventform-con">
                   <form action="recebe.php" method="post">
                      <div class="form-input">
@@ -217,10 +218,7 @@
                </div>
             </div>
             
-            
-            
-            
-            
+           
             <div class="row hidden-lg hidden-md">
                <div class="slide-servicos-itens-xs-sm">
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
@@ -323,7 +321,11 @@
                         </div>
                                         
                         <div class="row">
-                        <div class="depoimento-setas"> <a id="left" onclick="menuList('pasteis-p3')"><i class="fa fa-arrow-left"></i></a> <a id="right" onclick="menuList('pasteis-p2')"><i class="fa fa-arrow-right"></i></a> </div>
+                        <div class="setas"> 
+                        	<a class="left" onclick="menuList('pasteis-p3')">
+                            	<i class="fa fa-arrow-left"></i></a>
+                        	<a class="right" onclick="menuList('pasteis-p2')"><i class="fa fa-arrow-right"></i></a> 
+                        </div>
                      </div>
   </div>
                </div>
@@ -396,6 +398,25 @@
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy-n4cUtfZ1ZRkDp0EhfTf4paSmqceHWQ&callback=initMap"></script>
       <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
       <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script> 
+      
+      <script async type="text/javascript">
+         var map;
+         function initMap() {
+           var myLatLng = {lat: -29.691443, lng: -53.806831};
+         	
+           map = new google.maps.Map(document.getElementById('mapa'), {
+             center: myLatLng,
+             zoom: 16 
+           });
+           
+           var marker = new google.maps.Marker({
+         		map: map,
+         		position: myLatLng,
+         		title: 'Hotel Humberto'
+         	  });
+         
+         }
+      </script> 
       <script async>
          $(document).ready(function () {
              if ($(".banner-principal").length > 0) {
@@ -416,6 +437,7 @@
                      //autoplayHoverPause: true,
                      dots: true,
                      nav: false,
+					 //navText: ['<i class="fa fa-arrow-left">','<i class="fa fa-arrow-right">'],
                      loop: true,
                      items: 3,
                  });
@@ -435,24 +457,7 @@
          });
 
       </script> 
-      <script type="text/javascript">
-         var map;
-         function initMap() {
-           var myLatLng = {lat: -29.691443, lng: -53.806831};
-         	
-           map = new google.maps.Map(document.getElementById('mapa'), {
-             center: myLatLng,
-             zoom: 16 
-           });
-           
-           var marker = new google.maps.Marker({
-         		map: map,
-         		position: myLatLng,
-         		title: 'Hotel Humberto'
-         	  });
-         
-         }
-      </script> 
+
       <script async>
          $(function () {
              $("#datepicker-entrada").datepicker({
