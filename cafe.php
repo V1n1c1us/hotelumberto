@@ -10,7 +10,7 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/hover.css" rel="stylesheet" type="text/css"/>
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
+<link href="lightbox/dist/css/lightbox.css" rel="stylesheet">
 </head>
 <body>
 <!-- MENU/HEADER-->
@@ -33,34 +33,54 @@
     </div>
     <div class="row">
     	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <a href="images/cafe/thumb/img-cafe-1.JPG" data-lightbox="image-1">
         	<img class="img-responsive" src="images/cafe/thumb/img-cafe-1.JPG" alt="Café da Manhã"/>
+        </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <a href="images/cafe/thumb/img-cafe-2.JPG" data-lightbox="image-2">        
         	<img class="img-responsive" src="images/cafe/thumb/img-cafe-2.JPG" alt="Café da Manhã"/>
+            </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <a href="images/cafe/thumb/img-cafe-3.JPG" data-lightbox="image-3">        
         	<img class="img-responsive" src="images/cafe/thumb/img-cafe-3.JPG" alt="Café da Manhã"/>
+            </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <a href="images/cafe/thumb/img-cafe-4.JPG" data-lightbox="image-4">
         	<img class="img-responsive" src="images/cafe/thumb/img-cafe-4.JPG" alt="Café da Manhã"/>
+            </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <a href="images/cafe/thumb/img-cafe-5.JPG" data-lightbox="image-5">
         	<img class="img-responsive" src="images/cafe/thumb/img-cafe-5.JPG" alt="Café da Manhã"/>
+            </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <a href="images/cafe/thumb/img-cafe-6.JPG" data-lightbox="image-6">
         	<img class="img-responsive" src="images/cafe/thumb/img-cafe-6.JPG" alt="Café da Manhã"/>
+            </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <a href="images/cafe/thumb/img-cafe-7.JPG" data-lightbox="image-7">
         	<img class="img-responsive" src="images/cafe/thumb/img-cafe-7.JPG" alt="Café da Manhã"/>
+            </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <a href="images/cafe/thumb/img-cafe-8.JPG" data-lightbox="image-8">
         	<img class="img-responsive" src="images/cafe/thumb/img-cafe-8.JPG" alt="Café da Manhã"/>
+            </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <a href="images/cafe/thumb/img-cafe-9.JPG" data-lightbox="image-9">
         	<img class="img-responsive" src="images/cafe/thumb/img-cafe-9.JPG" alt="Café da Manhã"/>
+            </a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <a href="images/cafe/thumb/img-cafe-10.JPG" data-lightbox="image-10">
         	<img class="img-responsive" src="images/cafe/thumb/img-cafe-10.JPG" alt="Café da Manhã"/>
+            </a>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     				<div class="setas"> <a id="left" onclick="menuList('pasteis-p3')"><i class="fa fa-arrow-left"></i></a> <a id="right" onclick="menuList('pasteis-p2')"><i class="fa fa-arrow-right"></i></a> </div>
@@ -74,6 +94,12 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <script src="js/bootstrap.min.js"></script>
-
+<script src="lightbox/dist/js/lightbox.js"></script>
+<script>
+    lightbox.option({
+      'resizeDuration': 100,
+      'wrapAround': true,
+    })
+</script>
 </body>
 </html>

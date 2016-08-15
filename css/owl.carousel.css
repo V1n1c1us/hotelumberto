@@ -36,7 +36,19 @@
     opacity: 0;
   }
 }
-
+.owl-theme .owl-controls .owl-nav [class*=owl-] {
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  }
+.owl-nav{
+  text-align: center !important;
+}
 /* 
  * 	Owl Carousel - Auto Height Plugin
  */

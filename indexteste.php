@@ -506,8 +506,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/custom.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy-n4cUtfZ1ZRkDp0EhfTf4paSmqceHWQ&callback=initMap"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy-n4cUtfZ1ZRkDp0EhfTf4paSmqceHWQ&callback=initMap"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script async type="text/javascript">
@@ -547,8 +546,8 @@
                 autoplay: true,
                 //autoplayHoverPause: true,
                 dots: true,
-                nav: true,
-                navText: ['<div class="setas"><i class="fa fa-arrow-left"></i></div>', '<div class="setas"><i class="fa fa-arrow-right"></i></div>'],
+                nav: false,
+                //navText: ['<i class="fa fa-arrow-left">','<i class="fa fa-arrow-right">'],
                 loop: true,
                 items: 3,
             });
