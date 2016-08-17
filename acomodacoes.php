@@ -40,70 +40,64 @@
                 <div class="owl-carousel-acomodacoes">
                     <div class="owl-item">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <a href="images/acomodacoes/thumb/aa.JPG" data-lightbox="image-1">
-                                <img class="img-responsive" src="images/acomodacoes/thumb/aa.JPG"
+                            <a href="images/acomodacoes/img-acomodacoes-1.jpg" data-lightbox="image-1">
+                                <img class="img-responsive" src="images/acomodacoes/thumb/img-acomd-thumb-1.jpg"
                                      alt="Acomodações"/>
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <a href="images/acomodacoes/thumb/img-acomodacoes-2.JPG" data-lightbox="image-2">
-                                <img class="img-responsive" src="images/acomodacoes/thumb/aa.JPG"
+                            <a href="images/acomodacoes/img-acomodacoes-2.jpg" data-lightbox="image-1">
+                                <img class="img-responsive" src="images/acomodacoes/thumb/img-acomodacoes-2.jpg"
                                      alt="Acomodações"/>
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <a href="images/acomodacoes/thumb/img-acomodacoes-3.JPG" data-lightbox="image-3">
-                                <img class="img-responsive" src="images/acomodacoes/thumb/aa.JPG"
+                            <a href="images/acomodacoes/img-acomodacoes-3.jpg" data-lightbox="image-1">
+                                <img class="img-responsive" src="images/acomodacoes/thumb/img-acomodacoes-3.jpg"
                                      alt="Acomodações"/>
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <a href="images/acomodacoes/thumb/img-acomodacoes-4.JPG" data-lightbox="image-4">
-                                <img class="img-responsive" src="images/acomodacoes/thumb/aa.JPG"
+                            <a href="images/acomodacoes/img-acomodacoes-4.jpg" data-lightbox="image-1">
+                                <img class="img-responsive" src="images/acomodacoes/thumb/img-acomodacoes-4.jpg"
                                      alt="Acomodações"/>
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <a href="images/acomodacoes/thumb/img-acomodacoes-5.JPG" data-lightbox="image-5">
-                                <img class="img-responsive" src="images/acomodacoes/thumb/aa.JPG"
+                            <a href="images/acomodacoes/img-acomodacoes-5.jpg" data-lightbox="image-1">
+                                <img class="img-responsive" src="images/acomodacoes/thumb/img-acomodacoes-5.jpg"
                                      alt="Acomodações"/>
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <a href="images/acomodacoes/thumb/img-acomodacoes-6.JPG" data-lightbox="image-6">
-                                <img class="img-responsive" src="images/acomodacoes/thumb/aa.JPG"
+                            <a href="images/acomodacoes/img-acomodacoes-6.jpg" data-lightbox="image-1">
+                                <img class="img-responsive" src="images/acomodacoes/thumb/img-acomodacoes-6.jpg"
                                      alt="Acomodações"/>
                             </a>
                         </div>
                     </div>
                     <div class="owl-item">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <a href="images/acomodacoes/thumb/img-acomodacoes-7.JPG" data-lightbox="image-7">
-                                <img class="img-responsive" src="images/acomodacoes/thumb/aa.JPG"
+                            <a href="images/acomodacoes/img-acomodacoes-7.jpg" data-lightbox="image-1">
+                                <img class="img-responsive" src="images/acomodacoes/thumb/img-acomodacoes-7.jpg"
                                      alt="Acomodações"/>
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <a href="images/acomodacoes/thumb/img-acomodacoes-8.JPG" data-lightbox="image-8">
-                                <img class="img-responsive" src="images/acomodacoes/thumb/aa.JPG"
+                            <a href="images/acomodacoes/img-acomodacoes-8.jpg" data-lightbox="image-1">
+                                <img class="img-responsive" src="images/acomodacoes/thumb/img-acomodacoes-8.jpg"
                                      alt="Acomodações"/>
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <a href="images/acomodacoes/thumb/img-acomodacoes-9.JPG" data-lightbox="image-9">
-                                <img class="img-responsive" src="images/acomodacoes/thumb/aa.JPG"
+                            <a href="images/acomodacoes/img-acomodacoes-9.jpg" data-lightbox="image-1">
+                                <img class="img-responsive" src="images/acomodacoes/thumb/img-acomodacoes-9.jpg"
                                      alt="Acomodações"/>
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <a href="images/acomodacoes/thumb/img-acomodacoes-10.JPG" data-lightbox="image-10">
-                                <img class="img-responsive" src="images/acomodacoes/thumb/aa.JPG"
-                                     alt="Acomodações"/>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <a href="images/acomodacoes/thumb/img-acomodacoes-11.JPG" data-lightbox="image-11">
-                                <img class="img-responsive" src="images/acomodacoes/thumb/aa.JPG"
+                            <a href="images/acomodacoes/img-acomodacoes-10.jpg" data-lightbox="image-1">
+                                <img class="img-responsive" src="images/acomodacoes/thumb/img-acomodacoes-10.jpg"
                                      alt="Acomodações"/>
                             </a>
                         </div>
@@ -121,7 +115,8 @@
 <script src="lightbox/dist/js/lightbox.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy-n4cUtfZ1ZRkDp0EhfTf4paSmqceHWQ&callback=initMap"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy-n4cUtfZ1ZRkDp0EhfTf4paSmqceHWQ&callback=initMap"></script>
 <script>
     $(document).ready(function () {
         if ($(".owl-carousel-acomodacoes").length > 0) {

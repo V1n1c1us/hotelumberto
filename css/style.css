@@ -500,7 +500,12 @@ button.selecionar-reserva {
 .slide-servicos-itens {
     margin-top: 30px;
 }
-
+.retina img{
+    position: absolute;
+    width: 100px;
+    top: 35%;
+    left: 35%;
+}
 .retina > img#acomod {
     position: relative;
     width: 92px;
@@ -1441,6 +1446,7 @@ button.open.icon.fa.fa-calendar {
 header .info-topo {
     font-size: 14px;
     text-align: right;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header .info-topo .box-info {
@@ -1460,7 +1466,6 @@ header .info-topo .box-info a {
 header .info-topo ul {
     text-align: center;
     list-style: none;
-
     margin-top: 20px;
     margin-right: 20px;
     color: #000000;

@@ -17,8 +17,6 @@
     <script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
     <script>
         $('.datepicker').datepicker()
-
-
     </script>
 </head>
 <body>
@@ -126,7 +124,7 @@
 <div class="container hidden-lg hidden-md">
     <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 eventform-con">
-            <form action="recebe.php" method="post">
+            <form id="contact-reserva">
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -185,7 +183,17 @@
                 </div>
                 <div class="form-input">
                     <button class="send" type="submit"><i class="fa fa-send"></i></button>
+                    <p id="send-info"></p>
                 </div>
+                <script>
+                    function sending() //AJAX para enviar o email, vai no html
+                    {
+                        var posting = $.post("inc/sendmailReserva.php", $("#contact-reserva").serialize());
+                        posting.done(function (data) {
+                            $("#send-info").html(data); //id da div de retorno
+                        });
+                    }
+                </script>
             </form>
         </div>
     </div>
@@ -479,11 +487,6 @@
                             </div>
                         </div>
                     </div>
-                    <!--                    <div class="row">-->
-                    <!--                        <div class="setas"><a class="left" onclick="menuList('pasteis-p3')"> <i-->
-                    <!--                                    class="fa fa-arrow-left"></i></a> <a class="right" onclick="menuList('pasteis-p2')"><i-->
-                    <!--                                    class="fa fa-arrow-right"></i></a></div>-->
-                    <!--                    </div>-->
                 </div>
             </div>
         </div>
@@ -547,7 +550,7 @@
         <div class="row">
             <div class="action">
                 <button class="button01">
-                    <a href="#">MAIS OPÇÕES</a>
+                    <a href="tarifario.php">MAIS OPÇÕES</a>
                 </button>
             </div>
         </div>

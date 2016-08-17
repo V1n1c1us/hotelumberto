@@ -172,64 +172,6 @@
         </div>
         <div class="row hidden-sm hidden-xs">
             <div class="slide-servicos-itens">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
-                    <div class="box-servicos-header">
-                        <h3>Acomodações</h3>
-                    </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-acomodacoes.png"/>
-
-                        <div class="retina"><img id="acomod" src="images/img-acomodacoes-icon.png"/></div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
-                    <div class="box-servicos-header">
-                        <h3>Café da Manhã</h3>
-                    </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-cafe.png"/>
-
-                        <div class="retina"><img id="coffe" src="images/img-cafe-icon.png"/></div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
-                    <div class="box-servicos-header">
-                        <h3>Estacionamento</h3>
-                    </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-estacionamento.png"/>
-
-                        <div class="retina"><img id="car" src="images/img-estacionamento-icon.png"/></div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
-                    <div class="box-servicos-header">
-                        <h3>Bar</h3>
-                    </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-bar.png"/>
-
-                        <div class="retina"><img id="bar" src="images/img-bar-icon.png"/></div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
-                    <div class="box-servicos-header">
-                        <h3>Auditório</h3>
-                    </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-auditorio.png"/>
-
-                        <div class="retina"><img id="auditorio" src="images/img-auditorio-icon.png"/></div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
-                    <div class="box-servicos-header">
-                        <h3>Sala de Reuniões</h3>
-                    </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-sala-reuniao.png"/>
-
-                        <div class="retina"><img id="salareuniao" src="images/img-sala-reuniao-icon.png"/></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row hidden-lg hidden-md">
-            <div class="slide-servicos-itens-xs-sm">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
                     <div class="box-servicos-header">
                         <h3>Acomodações</h3>
@@ -286,13 +228,72 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="action">
-                <button class="button01">
-                    <a href="servicos.php">VER TODOS</a>
-                </button>
+    </div>
+    <div class="row hidden-lg hidden-md">
+        <div class="slide-servicos-itens-xs-sm">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
+                <div class="box-servicos-header">
+                    <h3>Acomodações</h3>
+                </div>
+                <div class="hoverzoom"><img class="box-img" src="images/img-acomodacoes.png"/>
+
+                    <div class="retina"><img id="acomod" src="images/img-acomodacoes-icon.png"/></div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
+                <div class="box-servicos-header">
+                    <h3>Café da Manhã</h3>
+                </div>
+                <div class="hoverzoom"><img class="box-img" src="images/img-cafe.png"/>
+
+                    <div class="retina"><img id="coffe" src="images/img-cafe-icon.png"/></div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
+                <div class="box-servicos-header">
+                    <h3>Estacionamento</h3>
+                </div>
+                <div class="hoverzoom"><img class="box-img" src="images/img-estacionamento.png"/>
+
+                    <div class="retina"><img id="car" src="images/img-estacionamento-icon.png"/></div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
+                <div class="box-servicos-header">
+                    <h3>Bar</h3>
+                </div>
+                <div class="hoverzoom"><img class="box-img" src="images/img-bar.png"/>
+
+                    <div class="retina"><img id="bar" src="images/img-bar-icon.png"/></div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
+                <div class="box-servicos-header">
+                    <h3>Auditório</h3>
+                </div>
+                <div class="hoverzoom"><img class="box-img" src="images/img-auditorio.png"/>
+
+                    <div class="retina"><img id="auditorio" src="images/img-auditorio-icon.png"/></div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
+                <div class="box-servicos-header">
+                    <h3>Sala de Reuniões</h3>
+                </div>
+                <div class="hoverzoom"><img class="box-img" src="images/img-sala-reuniao.png"/>
+
+                    <div class="retina"><img id="salareuniao" src="images/img-sala-reuniao-icon.png"/></div>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="row">
+        <div class="action">
+            <button class="button01">
+                <a href="servicos.php">VER TODOS</a>
+            </button>
+        </div>
+    </div>
     </div>
     <!-- DEPOIMENTOS -->
 
@@ -506,7 +507,8 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/custom.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy-n4cUtfZ1ZRkDp0EhfTf4paSmqceHWQ&callback=initMap"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy-n4cUtfZ1ZRkDp0EhfTf4paSmqceHWQ&callback=initMap"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script async type="text/javascript">
@@ -543,7 +545,7 @@
     $(document).ready(function () {
         if ($(".slide-servicos-itens").length > 0) {
             $(".slide-servicos-itens").owlCarousel({
-                autoplay: true,
+                autoplay: false,
                 //autoplayHoverPause: true,
                 dots: true,
                 nav: false,

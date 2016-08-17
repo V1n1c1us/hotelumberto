@@ -46,3 +46,23 @@
     <p class="copy">HOTEL UMBERTO • © Copyright 2016 • Todos os Direitos Reservados</p>
     <a class="logo-iguana" href="http://iguanaweb.com.br" target="_blank"></a> </div>
 </div>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy-n4cUtfZ1ZRkDp0EhfTf4paSmqceHWQ&callback=initMap"></script>
+<script async type="text/javascript">
+  var map;
+  function initMap() {
+    var myLatLng = {lat: -29.691443, lng: -53.806831};
+
+    map = new google.maps.Map(document.getElementById('mapa'), {
+      center: myLatLng,
+      zoom: 16
+    });
+
+    var marker = new google.maps.Marker({
+      map: map,
+      position: myLatLng,
+      title: 'Hotel Humberto'
+    });
+
+  }
+</script>

@@ -11,7 +11,6 @@
 <link href="css/hover.css" rel="stylesheet" type="text/css"/>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
 </head>
 <body>
 <!-- MENU/HEADER-->
