@@ -131,5 +131,26 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <script src="js/bootstrap.min.js"></script>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy-n4cUtfZ1ZRkDp0EhfTf4paSmqceHWQ&callback=initMap"></script>
+<script async type="text/javascript">
+    var map;
+    function initMap() {
+        var myLatLng = {lat: -29.691443, lng: -53.806831};
+
+        map = new google.maps.Map(document.getElementById('mapa'), {
+            center: myLatLng,
+            zoom: 16
+        });
+
+        var marker = new google.maps.Marker({
+            map: map,
+            position: myLatLng,
+            title: 'Hotel Humberto'
+        });
+
+    }
+</script>
 </body>
 </html>
