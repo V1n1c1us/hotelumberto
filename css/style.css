@@ -3,18 +3,17 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400);
 /*PAGE INDEX*/
+
 .no-padding {
     padding: 0 !important;
 }
-
 .action {
     text-align: center;
     margin-top: 30px;
 }
-
 .button01 {
-    -webkit-border-radius: 18;
-    -moz-border-radius: 18;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
     border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -28,17 +27,14 @@
     width: 170px;
     color: #fff;
 }
-
 .button01 a {
     text-decoration: none;
     color: #ffffff;
 }
-
 .action-tarifario {
     text-align: center;
     padding: 35px;
 }
-
 .button-tarifario1 {
     background: #ff6900;
     height: 40px;
@@ -48,7 +44,6 @@
     font-weight: bold;
     color: #ffffff;
 }
-
 .button-tarifario2 {
     background: #336699;
     height: 40px;
@@ -58,7 +53,6 @@
     font-weight: bold;
     color: #ffffff;
 }
-
 .button-tarifario3 {
     background: #888787;
     height: 40px;
@@ -68,44 +62,38 @@
     font-weight: bold;
     color: #ffffff;
 }
-
 .button-tarifario1 a {
     color: #ffffff;
     text-decoration: none;
 }
-
-.button-tarifario2 a{
+.button-tarifario2 a {
     color: #ffffff;
     text-decoration: none;
 }
-
 .button-tarifario3 a {
     color: #ffffff;
     text-decoration: none;
 }
-
 .area-logo {
     float: left;
     margin-top: 20px;
     margin-bottom: 13px;
 }
-
+header {
+    border-bottom: 3px solid #ff6900;
+}
 header .logo {
     position: relative;
 }
-
 .navbar {
     margin-bottom: 0px;
 }
-
 .navbar .navbar-nav {
     margin-top: 40px;
 }
-
 .navbar .navbar-nav > li {
     font-family: 'Open Sans', sans-serif;
 }
-
 .navbar .navbar-nav > li > a {
     color: #333333;
     font-size: 1em;
@@ -114,21 +102,18 @@ header .logo {
     position: relative;
     display: inline-block;
 }
-
-.nav > li > a:focus, .nav > li > a:hover {
+.nav > li > a:focus,
+.nav > li > a:hover {
     cursor: pointer;
     background: none;
-    border-bottom: 2px solid #ff6900;
+    color: #ff6900;
 }
-
 .navbar-toggle {
     background: #ff6900;
 }
-
 .navbar-toggle .icon-bar {
     background-color: #ffffff;
 }
-
 .banner-titulo h1 {
     margin-top: -80px;
     font-size: 58px;
@@ -136,7 +121,6 @@ header .logo {
     color: #fff;
     font-family: 'Gabriela', serif;
 }
-
 .menu-contato {
     height: 30px;
     margin-top: 20px;
@@ -145,11 +129,9 @@ header .logo {
     opacity: 0.7;
     font-family: 'Open Sans', sans-serif;
 }
-
 .menu-contato ul {
     float: right;
 }
-
 .menu-contato ul li {
     list-style: none;
     float: left;
@@ -157,39 +139,25 @@ header .logo {
     border-bottom: 1px solid #ebebeb;
     z-index: 0;
 }
-
 .menu-contato ul li img {
     margin-top: -6px;
 }
-
 .menu-contato #borderRight {
     border-right: 1px solid #ebebeb;
     opacity: 0.7;
 }
-
 .menu-contato .icon {
     color: #000000;
     opacity: 0.7;
 }
-
 /*BANNER*/
+
 .banner-principal {
     width: 100%;
     overflow: hidden;
     max-height: 833px;
-    border-top: 3px solid #ff6900;
 }
-
 /* HOTEL */
-.middle-hotel {
-    width: 100%;
-    height: 578px;
-    border-top: 3px solid #ff6900;
-}
-
-.middle-hotel .texto {
-    margin-top: 30px;
-}
 
 .middle-hotel .texto p {
     margin-top: 50px;
@@ -198,20 +166,17 @@ header .logo {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
-
 .middle-hotel .sub-texto p {
     text-align: center;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
-
 .middle-hotel .titulo h2 {
     margin-top: 77px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-
 .middle-hotel .titulo:after {
     content: " ";
     position: absolute;
@@ -221,37 +186,27 @@ header .logo {
     transform: translateX(-50%);
     width: 5%;
 }
-
 .middle-hotel .img-hotel {
     margin-bottom: 51px;
 }
-
 /*************/
+
 .texto h3 > b {
     color: #ff6900;
 }
-
 .tarifario-box1 {
     border: 1px solid #ff5500;
 }
-
 /* NOTÍCIAS*/
-.middle-noticias {
-    width: 100%;
-    height: auto;
-    border-top: 3px solid #ff6900;
-}
 
 .middle-noticias .titulo {
     margin-bottom: 70px;
 }
-
 .middle-noticias .titulo h2 {
     margin-top: 77px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-
 .middle-noticias .titulo:after {
     content: " ";
     position: absolute;
@@ -261,33 +216,27 @@ header .logo {
     transform: translateX(-50%);
     width: 5%;
 }
-
 h3.titulo-noticia {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #ff6600;
 }
-
 .noticias {
     margin-bottom: 20px;
 }
-
 .margin10 {
     margin-bottom: 20px;
     margin-right: 20px;
 }
-
 .img-thumbnail {
     border: none !important;
 }
-
 article p {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-
 .btn-paginacao {
     -webkit-border-radius: 6;
     -moz-border-radius: 6;
@@ -301,13 +250,11 @@ article p {
     text-decoration: none;
     margin-left: 5px;
 }
-
 .btn-paginacao:hover {
     background: #ff6600;
     color: #fff;
     text-decoration: none;
 }
-
 /*.owl-controls{
 	text-align: center !important;
 }
@@ -315,49 +262,37 @@ article p {
 .owl-nav{
 	display: inline-flex;
 }*/
+
 .setas {
     margin: 0 auto;
     padding-bottom: 50px;
 }
-
 .setas .fa.fa-arrow-left {
     color: #636363;
     font-size: 35px;
 }
-
 .setas .fa.fa-arrow-right {
     color: #636363;
     font-size: 35px;
 }
-
-.setas .fa.fa-arrow-left:hover, .fa.fa-arrow-right:hover {
+.setas .fa.fa-arrow-left:hover,
+.fa.fa-arrow-right:hover {
     color: #ff6600;
 }
-
 .setas a {
     margin: 70px 5%;
 }
-
 /*************/
-
 /*RESERVAS*/
-
-.middle-reserva {
-    width: 100%;
-    height: auto;
-    border-top: 3px solid #ff6900;
-}
 
 .middle-reserva .titulo {
     margin-bottom: 70px;
 }
-
 .middle-reserva .titulo h2 {
     margin-top: 77px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-
 .middle-reserva .titulo:after {
     content: " ";
     position: absolute;
@@ -367,14 +302,12 @@ article p {
     transform: translateX(-50%);
     width: 5%;
 }
-
 h3.titulo-reserva {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #ff6600;
 }
-
 .subtitulo-reserva {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
@@ -384,7 +317,6 @@ h3.titulo-reserva {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 button.selecionar-reserva {
     -webkit-border-radius: 6;
     -moz-border-radius: 6;
@@ -398,17 +330,14 @@ button.selecionar-reserva {
     border: none;
     text-decoration: none;
 }
-
 .reserva-op2-fluid {
     margin-top: 50px;
     background: #ebebeb;
 }
-
 .form-p {
     color: #979393;
     padding: 18px;
 }
-
 .btn-submit-form {
     -webkit-border-radius: 6;
     -moz-border-radius: 6;
@@ -430,18 +359,27 @@ button.selecionar-reserva {
     margin-top: 30px;
     margin-left: 90px;
 }
-
 /*************/
-
 /*MIDDEL*/
+
 .middle {
     margin-top: 90px;
 }
-
+.box-img img {
+    width: 100px;
+    border: none;
+    top: 50%;
+    margin-top: -40px;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+}
+img.box-img-icon {
+    width: 100px !important;
+}
 .middle .prev-tempo {
     height: 110px;
 }
-
 .middle-servicos-header h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
@@ -450,7 +388,6 @@ button.selecionar-reserva {
     color: #000000;
     opacity: 0.7;
 }
-
 .middle-servicos-header:after {
     content: " ";
     position: absolute;
@@ -460,7 +397,6 @@ button.selecionar-reserva {
     transform: translateX(-50%);
     width: 3%;
 }
-
 .middle-texto {
     margin-top: 27px;
     margin-bottom: 33px;
@@ -469,14 +405,12 @@ button.selecionar-reserva {
     color: #000000;
     opacity: 0.7;
 }
-
 .box-servicos-header {
     position: relative;
     height: 40px;
     width: 100%;
     background: #ff6900;
 }
-
 .box-servicos-header h3 {
     position: absolute;
     bottom: 0;
@@ -487,24 +421,15 @@ button.selecionar-reserva {
     text-transform: uppercase;
     color: #ffffff;
 }
-
 .hoverzoom {
     padding: 0 !important;
     margin-top: 3px !important;
 }
-
 .box-img {
     width: 100%;
 }
-
 .slide-servicos-itens {
     margin-top: 30px;
-}
-.retina img{
-    position: absolute;
-    width: 100px;
-    top: 35%;
-    left: 35%;
 }
 .retina > img#acomod {
     position: relative;
@@ -512,7 +437,6 @@ button.selecionar-reserva {
     top: 40%;
     left: 35%;
 }
-
 .retina > img#coffe {
     position: relative;
     width: 76px;
@@ -520,7 +444,6 @@ button.selecionar-reserva {
     top: 30%;
     left: 35%;
 }
-
 .retina > img#car {
     position: relative;
     width: 94px;
@@ -528,7 +451,6 @@ button.selecionar-reserva {
     top: 35%;
     left: 35%;
 }
-
 .retina > img#bar {
     position: relative;
     width: 72px;
@@ -536,7 +458,6 @@ button.selecionar-reserva {
     top: 23%;
     left: 35%;
 }
-
 .retina > img#auditorio {
     position: relative;
     width: 104px;
@@ -544,7 +465,6 @@ button.selecionar-reserva {
     top: 23%;
     left: 35%;
 }
-
 .retina > img#salareuniao {
     position: relative;
     width: 113px;
@@ -552,16 +472,13 @@ button.selecionar-reserva {
     top: 23%;
     left: 35%;
 }
-
 span.borda {
     margin-top: 3px;
     border: 3px solid black;
 }
-
 .middle-tarifario-header {
     margin-top: 85px;
 }
-
 .middle-tarifario-header h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
@@ -570,7 +487,6 @@ span.borda {
     color: #000000;
     opacity: 0.7;
 }
-
 .middle-tarifario-header:after {
     content: " ";
     position: absolute;
@@ -580,13 +496,12 @@ span.borda {
     transform: translateX(-50%);
     width: 3%;
 }
-
 /*DEPOIMENTOS*/
+
 .depoimentos-geral {
     margin-top: 50px;
     background: #ebebeb;
 }
-
 .middle-depoimentos-header h1 {
     margin-top: 70px;
     font-family: 'Open Sans', sans-serif;
@@ -596,7 +511,6 @@ span.borda {
     color: #666666;
     opacity: 0.7;
 }
-
 .middle-depoimentos-header:after {
     content: " ";
     position: absolute;
@@ -606,21 +520,18 @@ span.borda {
     transform: translateX(-50%);
     width: 3%;
 }
-
 h5.cabecalho {
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     padding: 20px;
 }
-
 span.depoimento-destaque a {
     color: #339999;
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     text-decoration: none;
 }
-
 .balao-box {
     background: #fff;
     margin-top: -10px;
@@ -630,7 +541,6 @@ span.depoimento-destaque a {
     -moz-border-radius: 5px;
     position: relative;
 }
-
 .balao-box:after {
     top: 100%;
     left: 50px;
@@ -641,76 +551,63 @@ span.depoimento-destaque a {
     border-width: 15px;
     margin-left: -15px;
 }
-
 .balao-box p {
     padding: 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
-
 .depoimento-user {
     margin-top: -6px;
     text-align: left;
     padding-left: 61px;
     margin-bottom: 30px;
 }
-
 .depoimento-user i {
     font-size: 20px;
 }
-
 .depoimento-username {
     display: inline-block;
     vertical-align: top;
     padding-left: 10px;
 }
-
 .depoimento-setas {
     width: 100%;
     display: inline-block;
     text-align: center;
     margin: 0 0 50px 0;
 }
-
 .depoimento-setas .fa.fa-arrow-left {
     color: #636363;
     font-size: 35px;
     width: 44%;
 }
-
 .depoimento-setas .fa.fa-arrow-right {
     color: #636363;
     font-size: 35px;
     width: 44%;
-
 }
-
-.depoimento-setas .fa.fa-arrow-left:hover, .fa.fa-arrow-right:hover {
+.depoimento-setas .fa.fa-arrow-left:hover,
+.fa.fa-arrow-right:hover {
     color: #ff6600;
 }
-
 /*************/
-
 /*TARIFÁRIO*/
+
 .tarifario {
     margin-top: 30px;
 }
-
 .box1 {
     border: 1px solid #ff5500;
     height: auto;
 }
-
 .box2 {
     border: 1px solid #267690;
     height: auto;
 }
-
 .box3 {
     border: 1px solid #8e8c8c;
     height: auto;
 }
-
 .box1 .topo {
     height: 50px;
     text-align: center;
@@ -718,7 +615,6 @@ span.depoimento-destaque a {
     font-size: 20px;
     line-height: 50px;
 }
-
 .box1 .preco {
     text-align: center;
     color: #fff;
@@ -729,7 +625,6 @@ span.depoimento-destaque a {
     background: #ff5500;
     font-family: 'Open Sans', sans-serif;
 }
-
 .box1 .preco {
     text-align: center;
     color: #fff;
@@ -740,11 +635,10 @@ span.depoimento-destaque a {
     background: #ff5500;
     font-family: 'Open Sans', sans-serif;
 }
-
 .box1 .preco .valor {
     font-size: 36px;
+    vertical-align: middle;
 }
-
 .box1 .meio {
     text-align: center;
     margin: 42px 27px 46px 27px;
@@ -752,12 +646,10 @@ span.depoimento-destaque a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
 }
-
 .box1 .baixo {
     background: #ff5500;
     height: 111px;
 }
-
 .box2 .topo {
     height: 50px;
     text-align: center;
@@ -765,7 +657,6 @@ span.depoimento-destaque a {
     font-size: 20px;
     line-height: 50px;
 }
-
 .box2 .preco {
     text-align: center;
     color: #fff;
@@ -776,7 +667,6 @@ span.depoimento-destaque a {
     background: #f7a76e;
     font-family: 'Open Sans', sans-serif;
 }
-
 .box2 .preco#casal {
     text-align: center;
     color: #fff;
@@ -787,11 +677,10 @@ span.depoimento-destaque a {
     background: #4c96ae;
     font-family: 'Open Sans', sans-serif;
 }
-
 .box2 .preco .valor {
     font-size: 36px;
+    vertical-align: middle;
 }
-
 .box2 .meio {
     text-align: center;
     margin: 42px 27px 46px 27px;
@@ -799,12 +688,10 @@ span.depoimento-destaque a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
 }
-
 .box2 .baixo {
     background: #4c96ae;
     height: 111px;
 }
-
 .box3 .topo {
     height: 50px;
     text-align: center;
@@ -812,7 +699,6 @@ span.depoimento-destaque a {
     font-size: 20px;
     line-height: 50px;
 }
-
 .box3 .preco {
     text-align: center;
     color: #fff;
@@ -823,7 +709,6 @@ span.depoimento-destaque a {
     background: #f7a76e;
     font-family: 'Open Sans', sans-serif;
 }
-
 .box3 .preco#ultimo {
     text-align: center;
     color: #fff;
@@ -834,34 +719,27 @@ span.depoimento-destaque a {
     background: #404040;
     font-family: 'Open Sans', sans-serif;
 }
-
 .box3 .preco .valor {
     font-size: 36px;
+    vertical-align: middle;
 }
-
-.box3 .preco .zero {
-}
-
-.box3 .meio {
-    text-align: center;
-    margin: 42px 27px 46px 27px;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-}
-
+.box3 .preco .zero {} .box3 .meio {
+                          text-align: center;
+                          margin: 42px 27px 46px 27px;
+                          font-size: 20px;
+                          font-family: 'Open Sans', sans-serif;
+                          font-weight: 100;
+                      }
 .box3 .baixo {
     background: #404040;
     height: 111px;
 }
-
 .middle-visitar {
     margin-top: 160px;
     background: #404040;
     height: auto;
     width: 100%;
 }
-
 .middle-visitar h2 {
     margin-top: 83px;
     margin-bottom: 70px;
@@ -871,11 +749,9 @@ span.depoimento-destaque a {
     font-size: 45px;
     font-weight: 800;
 }
-
 ul.visitar {
     margin-bottom: 64px;
 }
-
 .middle-visitar ul.visitar li {
     list-style: none;
     color: #ffffff;
@@ -883,62 +759,46 @@ ul.visitar {
     margin-top: 8px;
     font-family: 'Open Sans', sans-serif;
 }
-
 .middle-visitar ul.visitar li .fa {
     font-size: 25px !important;
 }
-
 .visitar .icone {
     color: #ff6600;
 }
-
 .middle-visitar .social {
     height: 58px;
     margin-left: 78%;
     margin-top: 65px;
 }
-
 .middle-visitar .social a > img {
     height: 58px;
     width: auto;
 }
-
 .slide-servicos-itens-xs-sm {
     margin-top: 30px;
 }
-
 /*INFORMACÕES*/
-
-.middle-informacoes {
-    width: 100%;
-    height: auto;
-    border-top: 3px solid #ff6900;
-}
 
 .middle-informacoes .texto {
     margin-top: 30px;
     margin-bottom: 35px;
 }
-
 .middle-informacoes .texto p {
     text-align: justify;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
-
 .middle-informacoes .sub-texto p {
     text-align: center;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
-
 .middle-informacoes .titulo h2 {
     margin-top: 77px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-
 .middle-informacoes .titulo:after {
     content: " ";
     position: absolute;
@@ -948,54 +808,41 @@ ul.visitar {
     transform: translateX(-50%);
     width: 5%;
 }
-
 .texto > h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     margin-top: 40px;
 }
-
 h4.inform-subtitulo {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #ff6900;
     font-weight: 600;
 }
-
 .inform-titulo p {
     font-family: 'Open Sans', sans-serif;
 }
-
 section.inform-adicionais {
     background: #ebebeb;
     margin-top: 40px;
     margin-bottom: -50px;
 }
-
 section.inform-adicionais hr {
     width: 20%;
     border-top: 1px solid #000 !important;
     margin-left: 0 !important;
 }
-
 .informacoes-row {
     margin-bottom: 40px;
 }
-
 /********/
 /* CONTATO PAGE*/
-
-.middle-contato {
-    width: 100%;
-    border-top: 3px solid #ff6900;
-}
 
 .middle-contato .titulo h2 {
     margin-top: 77px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-
 .middle-contato .titulo:after {
     content: " ";
     position: absolute;
@@ -1005,18 +852,15 @@ section.inform-adicionais hr {
     transform: translateX(-50%);
     width: 5%;
 }
-
 .middle-contato .texto {
     margin-top: 30px;
     margin-bottom: -30px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
-
 .form-contato {
     background: #ebebeb;
 }
-
 .form-contato h3 {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
@@ -1024,48 +868,35 @@ section.inform-adicionais hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .form-contato form {
     margin-bottom: 50px;
 }
-
 .form-contato input {
     height: 50px;
 }
-
 /********/
-
 /* SERVIÇOS*/
-.middle-servicos {
-    width: 100%;
-    height: auto;
-    border-top: 3px solid #ff6900;
-}
 
 .middle-servicos .texto {
     margin-top: 30px;
     margin-bottom: 35px;
 }
-
 .middle-servicos .texto p {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
-
 .middle-servicos .sub-texto p {
     text-align: center;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
-
 .middle-servicos .titulo h2 {
     margin-top: 77px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-
 .middle-servicos .titulo:after {
     content: " ";
     position: absolute;
@@ -1075,7 +906,6 @@ section.inform-adicionais hr {
     transform: translateX(-50%);
     width: 5%;
 }
-
 .caption > h3 {
     color: #ff6900;
     font-family: 'Open Sans', sans-serif;
@@ -1083,52 +913,42 @@ section.inform-adicionais hr {
     font-weight: 600;
     text-transform: uppercase;
 }
-
 .thumbnail {
     border: none !important;
     background: #ebebeb;
     height: 500px;
 }
-
 /*******/
-
 /*ACOMODAÇÕES*/
+
 .owl-slide {
     margin-top: 125px;
     margin-bottom: 155px;
 }
-
 .img-responsive {
     margin-bottom: 20px !important;
 }
-
 /*EVENTOS*/
-.desc-eventos {
-}
 
-.desc-eventos ul li {
-    list-style: none;
-}
-
+.desc-eventos {} .desc-eventos ul li {
+                     list-style: none;
+                 }
 .desc-eventos .data-evento {
     color: #ff6900;
     font-size: 16px;
     font-weight: bold;
 }
-
 .desc-eventos p {
     text-align: center;
     font-family: "Open Sans";
     font-size: 16px;
 }
-
 .copyright {
     background: #267690;
     min-height: 56px;
     padding: 10px 0;
     text-align: left;
 }
-
 .copyright .copy {
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
@@ -1137,7 +957,6 @@ section.inform-adicionais hr {
     vertical-align: middle;
     margin: 8px 0 5px;
 }
-
 /*FOOTER*/
 
 .contato {
@@ -1146,7 +965,6 @@ section.inform-adicionais hr {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
 .contato h2 {
     margin-top: 75px;
     color: #ffffff;
@@ -1154,12 +972,10 @@ section.inform-adicionais hr {
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
 }
-
 .contato ul.contato {
     margin-top: 65px;
     font-weight: 300;
 }
-
 .contato ul.contato li {
     list-style: none;
     margin-top: 40px;
@@ -1168,39 +984,33 @@ section.inform-adicionais hr {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
-
 .contato ul.contato li .fa {
     font-size: 25px !important;
 }
-
 ul.mapa-site {
     margin-top: 65px;
 }
-
-ul.mapa-site li {
+ul.mapa-site li a {
     list-style: none;
     color: #ffffff;
     font-size: 16px;
     margin-top: 8px;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
 }
-
 .contato ul.mapa-site li:hover {
     list-style: disc;
 }
-
 .mapa {
     margin-top: -50px;
 }
-
 .mapa #mapa {
     width: 100%;
     height: 400px;
 }
-
 /************/
-
 /********** Logo Iguana ***********/
+
 .logo-iguana {
     display: inline-block;
     position: relative;
@@ -1215,85 +1025,14 @@ ul.mapa-site li {
     vertical-align: middle;
     margin: 0;
 }
-
-.logo-iguana:after {
-    content: '';
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 0%;
-    height: 100%;
-    border-radius: 20px;
-    background-color: #267690;
-    background-image: url(../images/iguana-logo-color.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: auto 100%;
-    z-index: 999;
-    -webkit-transition: all .3s cubic-bezier(.12, .53, .48, .54);
-    -moz-transition: all .3s cubic-bezier(.12, .53, .48, .54);
-    -ms-transition: all .3s cubic-bezier(.12, .53, .48, .54);
-    -o-transition: all .3s cubic-bezier(.12, .53, .48, .54);
-    transition: all .3s cubic-bezier(.12, .53, .48, .54);
-    -webkit-transition-delay: .1s;
-    -moz-transition-delay: .1s;
-    -ms-transition-delay: .1s;
-    -o-transition-delay: .1s;
-    transition-delay: .1s;
-}
-
-.logo-iguana:hover:after {
-    width: 65%;
-    border-radius: 0px;
-    -webkit-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    -ms-transition-delay: 0s;
-    -o-transition-delay: 0s;
-    transition-delay: 0s;
-}
-
-.logo-iguana:before {
-    content: '';
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    width: 0%;
-    height: 100%;
-    border-radius: 70px;
-    background-color: #267690;
-    background-image: url(../images/iguana-logo-color.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: auto 100%;
-    z-index: 999;
-    -webkit-transition: all .4s cubic-bezier(.09, .54, .9, .23);
-    -moz-transition: all .4s cubic-bezier(.09, .54, .9, .23);
-    -ms-transition: all .4s cubic-bezier(.09, .54, .9, .23);
-    -o-transition: all .4s cubic-bezier(.09, .54, .9, .23);
-    transition: all .4s cubic-bezier(.09, .54, .9, .23);
-    -webkit-transition-delay: .1s;
-    -moz-transition-delay: .1s;
-    -ms-transition-delay: .1s;
-    -o-transition-delay: .1s;
-    transition-delay: .1s;
-}
-
-.logo-iguana:hover:before {
-    width: 35%;
-    border-radius: 0px;
-    -webkit-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    -ms-transition-delay: 0s;
-    -o-transition-delay: 0s;
-    transition-delay: 0s;
-}
-
 /*********** End logo Iguana ***********/
-
 /**************************************************
-	5. Event Form 	
+	5. Event Form
  **************************************************/
 
+.formulario {
+    margin-top: 15%;
+}
 .check {
     position: relative;
     margin-top: -130px;
@@ -1301,40 +1040,33 @@ ul.mapa-site li {
     height: 100px;
     z-index: 999;
 }
-
 .eventform .title {
     color: #fff;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 22px;
 }
-
 .eventform small {
     color: #fff;
     font-size: 18px;
 }
-
 .eventform-con {
     position: relative;
     width: 100%;
     z-index: 999;
 }
-
 .eventform-con form {
     margin: 30px 35px 30px 13px;
 }
-
 .eventform-con .form-input {
     float: left;
     margin-right: 29px;
     position: relative;
 }
-
 .eventform-con form input {
     background: #ebebeb;
     height: 40px;
 }
-
 .eventform-con form .send {
     width: 65px;
     height: 40px;
@@ -1344,7 +1076,6 @@ ul.mapa-site li {
     border: none;
     border-radius: 6px;
 }
-
 button.open.icon.fa.fa-calendar {
     position: absolute;
     top: 60%;
@@ -1358,20 +1089,17 @@ button.open.icon.fa.fa-calendar {
     outline: none;
     cursor: pointer;
 }
-
 .eventform-con .form-input.search-location {
     width: 33%;
 }
-
 .eventform-con .form-input.search-location input {
     padding: 0px 40px;
 }
-
 .eventform-con .form-input:last-child {
     margin-right: 0px;
 }
-
-.eventform-con .form-input input, .eventform-con .form-input .styled-select {
+.eventform-con .form-input input,
+.eventform-con .form-input .styled-select {
     width: 100%;
     height: 40px;
     border: none;
@@ -1381,7 +1109,6 @@ button.open.icon.fa.fa-calendar {
     border-radius: 3px;
     font-size: 14px;
 }
-
 .eventform-con .form-input .icon.icon-s {
     right: 0px;
     left: 0px;
@@ -1392,9 +1119,7 @@ button.open.icon.fa.fa-calendar {
     width: 40px;
     cursor: default;
 }
-
-´
-.eventform-con .form-input .icon {
+´ .eventform-con .form-input .icon {
     position: absolute;
     top: 50%;
     background: #ebebeb;
@@ -1407,11 +1132,9 @@ button.open.icon.fa.fa-calendar {
     outline: none;
     cursor: pointer;
 }
-
 .eventform .eventform-con .form-input .styled-select {
     background: url('../img/nav-bg.png') no-repeat scroll right center #FFF;
 }
-
 .eventform-con .form-input .styled-select {
     padding: 0px;
     width: 100%;
@@ -1420,7 +1143,6 @@ button.open.icon.fa.fa-calendar {
     background: url('../img/arrow-2.png') no-repeat scroll right center #FFF;
     border-radius: 3px;
 }
-
 .eventform-con .form-input .styled-select select {
     background: none repeat scroll 0% 0% transparent;
     padding: 10px;
@@ -1433,22 +1155,18 @@ button.open.icon.fa.fa-calendar {
     outline: medium none;
     width: 120%;
 }
-
 /*newsection*/
+
 .newsection {
     margin-bottom: 50px;
 }
-
 .newsection:last-chlid {
     margin-bottom: 0px;
 }
-
 header .info-topo {
     font-size: 14px;
     text-align: right;
-    font-family: 'Open Sans', sans-serif;
 }
-
 header .info-topo .box-info {
     color: #999999;
     padding: 5px 15px 5px;
@@ -1458,11 +1176,9 @@ header .info-topo .box-info {
     top: 0px;
     position: relative;
 }
-
 header .info-topo .box-info a {
     color: #999999 !important;
 }
-
 header .info-topo ul {
     text-align: center;
     list-style: none;
@@ -1472,32 +1188,28 @@ header .info-topo ul {
     opacity: 0.7;
     font-family: 'Open Sans', sans-serif;
     float: right;
+    padding: 5px;
 }
-
 header .info-topo ul li {
     display: inline-block;
+    padding: 5px;
 }
-
 @media (max-width: 991px) {
     header .logo {
         text-align: center;
     }
-
     header .info-topo {
         text-align: center;
         font-size: 13px;
     }
-
     header .info-topo ul {
         text-align: center;
         list-style: none;
         float: none;
     }
-
     header .info-topo ul li {
         display: grid;
     }
-
     header .info-topo .box-info {
         color: #999999;
         padding: 5px 15px 5px;
@@ -1506,49 +1218,39 @@ header .info-topo ul li {
         top: 0px;
         position: relative;
     }
-
     .area-logo {
         float: none;
         margin-left: 12%;
     }
-
     .navbar {
         margin-bottom: 30px;
     }
-
     .navbar-toggle {
         float: none;
         padding: 15px;
     }
-
     .nav > li > a {
         padding: 10px 10px;
     }
-
     .menu-contato ul {
         float: none;
     }
-
     ul.mapa-site {
         margin-top: 20px;
     }
-
     .contato ul.contato {
         margin-top: 20px;
     }
-
     .contato h2 {
         margin-top: 20px;
     }
-
     .inform-titulo {
         padding: 15px;
     }
-
-    .box1, .box2 {
+    .box1,
+    .box2 {
         margin-bottom: 20px;
     }
-
     button.open.icon.fa.fa-calendar {
         position: absolute;
         background: #ebebeb;
@@ -1562,35 +1264,28 @@ header .info-topo ul li {
         outline: none;
         cursor: pointer;
     }
-
 }
-
 @media screen and (min-width: 768px) and (max-width: 991px) {
     header .info-topo ul {
         margin-top: -130px;
     }
 }
-
 @media only screen and (max-width: 767px) {
     header .logo {
         text-align: center;
     }
-
     header .info-topo {
         text-align: center;
     }
-
     header .info-topo ul {
         text-align: center;
         list-style: none;
-
         margin-top: 20px;
         margin-right: 20px;
         color: #000000;
         opacity: 0.7;
         font-family: 'Open Sans', sans-serif;
     }
-
     header .info-topo .box-info {
         color: #999999;
         padding: 5px 15px 5px;
@@ -1599,31 +1294,28 @@ header .info-topo ul li {
         top: 0px;
         position: relative;
     }
-
-    .box1, .box2, .box3 {
+    .box1,
+    .box2,
+    .box3 {
         margin-bottom: 20px;
     }
 }
-
 @media (min-width: 320px) and (max-width: 991px) {
-
     /*### INDEX ###*/
     /*HEADER*/
+
     header .info-topo {
         text-align: center;
     }
-
     header .info-topo ul {
         text-align: center;
         list-style: none;
-
         margin-top: 20px;
         margin-right: 20px;
         color: #000000;
         opacity: 0.7;
         font-family: 'Open Sans', sans-serif;
     }
-
     header .info-topo .box-info {
         color: #999999;
         padding: 5px 15px 5px;
@@ -1632,93 +1324,67 @@ header .info-topo ul li {
         top: 0px;
         position: relative;
     }
-
     .banner-titulo h1 {
         font-size: 25px;
         margin-top: auto;
     }
-
+    .formulario {
+        margin-top: 15%;
+    }
     .eventform-con {
         height: auto;
         text-align: center;
         margin-top: 20px;
     }
-
     .eventform-con form input {
         background: #ebebeb;
     }
-
     .eventform-con .form-input {
         float: none;
     }
-
     .eventform-con .form-input:last-child {
         padding: 5px;
     }
-
     .eventform-con .form-input .icon {
         background: #ebebeb;
         top: 26px;
         right: 6px;
         height: 39px;
     }
-
     .eventform-con form .send {
         margin-top: 20px;
     }
-
     .middle {
         margin-top: 25px;
     }
-
     .slide-servicos-itens-xs-sm {
         margin-top: 20px;
     }
-
     /*DEPOIMENTOS*/
+
     .depoimento-setas {
         width: 100%;
         text-align: center;
     }
-
     /**/
     /*###*/
+
     .btn-verTodos {
         margin-left: 0;
     }
-
-    .middle-hotel .texto p,
-    .middle-servicos .texto p,
-    .middle-acomodacoes .texto p,
-    .middle-informacoes .texto p,
-    .middle-noticias .texto p {
-        text-align: center;
-    }
-
     /*SERVIÇOS*/
+
     .thumbnail {
         height: auto;
     }
-
     /**/
     /*FOOTER*/
+
     .contato ul.contato li {
         font-size: 14px;
     }
-
     .copyright .copy {
         text-align: center;
     }
-
     /**/
 }
-
-
-
-
-
-
-
-
-
-
