@@ -10,7 +10,6 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/hover.css" rel="stylesheet" type="text/css"/>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="lightbox/dist/css/lightbox.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -31,7 +30,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="owl-carousel-noticias">
                     <div class="owl-item">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -189,36 +188,16 @@
     $(document).ready(function () {
         if ($(".owl-carousel-noticias").length > 0) {
             $(".owl-carousel-noticias").owlCarousel({
-                autoplay: true,
+                autoplay: false,
                 //autoplayHoverPause: true,
                 dots: true,
                 nav: true,
                 loop: true,
                 navText: ['<div class="setas"><i class="fa fa-arrow-left"></i></div>', '<div class="setas"><i class="fa fa-arrow-right"></i></div>'],
-                items: 2,
+                items: 1,
             });
         }
     });
-</script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy-n4cUtfZ1ZRkDp0EhfTf4paSmqceHWQ&callback=initMap"></script>
-<script async type="text/javascript">
-    var map;
-    function initMap() {
-        var myLatLng = {lat: -29.691443, lng: -53.806831};
-
-        map = new google.maps.Map(document.getElementById('mapa'), {
-            center: myLatLng,
-            zoom: 16
-        });
-
-        var marker = new google.maps.Marker({
-            map: map,
-            position: myLatLng,
-            title: 'Hotel Humberto'
-        });
-
-    }
 </script>
 </body>
 </html>

@@ -12,67 +12,17 @@
     <link href="css/hover.css" rel="stylesheet" type="text/css"/>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/datepicker.css" rel="stylesheet" type="text/css"/>
     <script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
     <script>
-        $('.datepicker').datepicker()
+        $('.datepicker').datepicker();
     </script>
 </head>
 <body>
 <!-- MENU/HEADER-->
-<header>
-    <div class="container">
-        <div class="col-md-3 col-xs-12 logo">
-            <h1><a href="http://hotelumberto.com.br/" title="Rosane Tissiani - Ortodontia" class="logo"> <img
-                        src="images/logoHotel.png" alt="Logo - Hotel Umberto"/> </a></h1>
-        </div>
-        <div class="col-lg-8 col-md-8 col-xs-12 info-topo text-right">
-
-            <ul>
-                <li id="borderRight"><i class="fa fa-phone icon"> (55) 3223-1210 / (55) 3221-1270</i></li>
-                <li><i class="fa fa-envelope-o icon"> contato@hotelumberto.com.br</i></li>
-                <li><img src="images/logoFace.png"/></li>
-            </ul>
-
-
-        </div>
-        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <nav class="navbar navbar-right" role="navigation">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <div class="action">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span
-                                    class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
-                                    class="icon-bar"></span> <span class="icon-bar"></span></button>
-                        </div>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="hotel.php">Hotel</a></li>
-                            <li><a href="acomodacoes.php">Acomodações</a></li>
-                            <li><a href="servicos.php">Serviços</a></li>
-                            <li><a href="tarifario.php">Tarifário</a></li>
-                            <li><a href="informacoes.php"><b>Informações</b></a></li>
-                            <li><a href="noticias.php">Notícias</a></li>
-                            <li><a href="contato.php">Contatos</a></li>
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
-
-                </nav>
-            </div>
-        </div>
-    </div>
-</header>
+<?php include('inc/header.php'); ?>
 <!-- FIM MENU HEADER-->
-<div class="clearfix"></div>
-<!-- SECTION BANNER-->
+
 <section class="banner-principal" class="animate bottom">
     <div class="item"><img src="images/bannerHotel.png" alt="Urbanes Empreendimentos"></div>
     <div class="item"><img src="images/bannerHotel.png" alt="Urbanes Empreendimentos"></div>
@@ -86,33 +36,34 @@
                 <h1><span>Uma estadia para você sentir-se em casa</span></h1>
             </div>
         </div>
-        <div class="row hidden-sm hidden-xs">
+        <div class="row hidden-xs hidden-sm ">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 eventform-con">
                 <form action="recebe.php" method="post">
                     <div class="form-group form-reserva">
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                             <input type="text" id="datepicker-entrada" name="entrada" placeholder="Entrada"
                                    class="form-control">
                             <button type="button" value="open" class="open icon fa fa-calendar"></button>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                             <input type="text" id="datepicker-saida" name="saida" placeholder="Saída"
                                    class="form-control">
                             <button type="button" value="open" class="open icon fa fa-calendar"></button>
                         </div>
-                        <div class="col-lg-1">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
                             <input type="number" name="numerohosp" placeholder="Nº de Hóspedes" class="form-control">
                         </div>
-                        <div class="col-lg-2">
-                            <input type="number" name="numerohosp" placeholder="Nº de Hóspedes" class="form-control">
-                        </div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                             <input type="text" name="nome" placeholder="Nome" class="form-control">
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <input type="text" name="telefone" placeholder="Telefone" class="form-control">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                             <input type="email" name="email" placeholder="Email" class="form-control">
                         </div>
-                        <div class="col-lg-1">
+
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
                             <button class="send" type="submit"><i class="fa fa-send"></i></button>
                         </div>
                     </div>
@@ -123,77 +74,60 @@
 </section>
 <div class="container hidden-lg hidden-md">
     <div class="row">
-        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 eventform-con">
-            <form id="contact-reserva">
+        <div class="formulario">
+            <form action="" role="form">
                 <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="form-input">
-                                <input type="text" id="datepicker-entrada" name="entrada" placeholder="Entrada">
-                                <button type="button" value="open" class="open icon fa fa-calendar"></button>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <div class="form-group">
+                                <input type="date" name="entrada" id="entrada" class="form-control"
+                                       placeholder="Entrada">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <div class="form-group">
+                                <input type="date" name="saida" id="saida" class="form-control" placeholder="Saída">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="form-input">
-                                <input type="text" id="datepicker-saida" name="saida" placeholder="Saída">
-                                <button type="button" value="open" class="open icon fa fa-calendar"></button>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <div class="form-group">
+                                <input type="text" name="nhospedes" id="nhospedes" class="form-control"
+                                       placeholder="Nº Hóspedes">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <div class="form-group">
+                                <input type="text" name="nome" id="nome" class="form-control"
+                                       placeholder="Nome">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="form-input">
-                                <input type="number" name="numerohosp" placeholder="Nº de Hóspedes">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <div class="form-group">
+                                <input type="text" name="telefone" id="telefone" class="form-control"
+                                       placeholder="Telefone">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" class="form-control"
+                                       placeholder="contato@hotelumberto.com.br@">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="form-input">
-                                <input type="text" name="nome" placeholder="Nome">
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="action">
+                        <button class="button01">ENVIAR</button>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="form-input">
-                                <input type="email" name="email" placeholder="Email">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                            <div class="form-input">
-                                <input type="email" name="email" placeholder="Email">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-input">
-                    <button class="send" type="submit"><i class="fa fa-send"></i></button>
-                    <p id="send-info"></p>
-                </div>
-                <script>
-                    function sending() //AJAX para enviar o email, vai no html
-                    {
-                        var posting = $.post("inc/sendmailReserva.php", $("#contact-reserva").serialize());
-                        posting.done(function (data) {
-                            $("#send-info").html(data); //id da div de retorno
-                        });
-                    }
-                </script>
             </form>
         </div>
     </div>
@@ -228,58 +162,70 @@
         </div>
         <div class="row hidden-sm hidden-xs">
             <div class="slide-servicos-itens">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
                     <div class="box-servicos-header">
                         <h3>Acomodações</h3>
                     </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-acomodacoes.png"/>
+                    <div class="hoverzoom">
+                        <img class="box-img" src="images/img-acomodacoes.png"/>
 
-                        <div class="retina"><img id="acomod" src="images/img-acomodacoes-icon.png"/></div>
+                        <div class="retina box-img"><img class="box-img-icon" src="images/img-acomodacoes-icon.png"
+                                                         alt=""></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
                     <div class="box-servicos-header">
                         <h3>Café da Manhã</h3>
                     </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-cafe.png"/>
+                    <div class="hoverzoom">
+                        <img class="box-img" src="images/img-cafe.png"/>
 
-                        <div class="retina"><img id="coffe" src="images/img-cafe-icon.png"/></div>
+                        <div class="retina box-img"><img class="box-img-icon" src="images/img-cafe-icon.png"
+                                                         alt=""></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
                     <div class="box-servicos-header">
-                        <h3>Estacionamento</h3>
+                        <h3>Estacionameno</h3>
                     </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-estacionamento.png"/>
+                    <div class="hoverzoom">
+                        <img class="box-img" src="images/img-estacionamento.png"/>
 
-                        <div class="retina"><img id="car" src="images/img-estacionamento-icon.png"/></div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
-                    <div class="box-servicos-header">
-                        <h3>Bar</h3>
-                    </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-bar.png"/>
-
-                        <div class="retina"><img id="bar" src="images/img-bar-icon.png"/></div>
+                        <div class="retina box-img"><img class="box-img-icon" src="images/img-estacionamento-icon.png"
+                                                         alt=""></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
                     <div class="box-servicos-header">
                         <h3>Auditório</h3>
                     </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-auditorio.png"/>
+                    <div class="hoverzoom">
+                        <img class="box-img" src="images/img-auditorio.png"/>
 
-                        <div class="retina"><img id="auditorio" src="images/img-auditorio-icon.png"/></div>
+                        <div class="retina box-img"><img class="box-img-icon" src="images/img-auditorio-icon.png"
+                                                         alt=""></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
+                    <div class="box-servicos-header">
+                        <h3>Bar</h3>
+                    </div>
+                    <div class="hoverzoom">
+                        <img class="box-img" src="images/img-bar.png"/>
+
+                        <div class="retina box-img"><img class="box-img-icon" src="images/img-bar-icon.png"
+                                                         alt=""></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
                     <div class="box-servicos-header">
                         <h3>Sala de Reuniões</h3>
                     </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-sala-reuniao.png"/>
+                    <div class="hoverzoom">
+                        <img class="box-img" src="images/img-sala-reuniao.png"/>
 
-                        <div class="retina"><img id="salareuniao" src="images/img-sala-reuniao-icon.png"/></div>
+                        <div class="retina box-img"><img class="box-img-icon" src="images/img-sala-reuniao-icon.png"
+                                                         alt=""></div>
                     </div>
                 </div>
             </div>
@@ -290,54 +236,66 @@
                     <div class="box-servicos-header">
                         <h3>Acomodações</h3>
                     </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-acomodacoes.png"/>
+                    <div class="hoverzoom">
+                        <img class="box-img" src="images/img-acomodacoes.png"/>
 
-                        <div class="retina"><img id="acomod" src="images/img-acomodacoes-icon.png"/></div>
+                        <div class="retina box-img"><img class="box-img-icon" src="images/img-auditorio-icon.png"
+                                                         alt=""></div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
                     <div class="box-servicos-header">
                         <h3>Café da Manhã</h3>
                     </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-cafe.png"/>
+                    <div class="hoverzoom">
+                        <img class="box-img" src="images/img-cafe.png"/>
 
-                        <div class="retina"><img id="coffe" src="images/img-cafe-icon.png"/></div>
+                        <div class="retina box-img"><img class="box-img-icon" src="images/img-cafe-icon.png"
+                                                         alt=""></div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
                     <div class="box-servicos-header">
-                        <h3>Estacionamento</h3>
+                        <h3>Estacionameno</h3>
                     </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-estacionamento.png"/>
+                    <div class="hoverzoom">
+                        <img class="box-img" src="images/img-estacionamento.png"/>
 
-                        <div class="retina"><img id="car" src="images/img-estacionamento-icon.png"/></div>
+                        <div class="retina box-img"><img class="box-img-icon" src="images/img-estacionamento-icon.png"
+                                                         alt=""></div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
-                    <div class="box-servicos-header">
-                        <h3>Bar</h3>
-                    </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-bar.png"/>
-
-                        <div class="retina"><img id="bar" src="images/img-bar-icon.png"/></div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
                     <div class="box-servicos-header">
                         <h3>Auditório</h3>
                     </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-auditorio.png"/>
+                    <div class="hoverzoom">
+                        <img class="box-img" src="images/img-auditorio.png"/>
 
-                        <div class="retina"><img id="auditorio" src="images/img-auditorio-icon.png"/></div>
+                        <div class="retina box-img"><img class="box-img-icon" src="images/img-auditorio-icon.png"
+                                                         alt=""></div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width:100%">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
+                    <div class="box-servicos-header">
+                        <h3>Bar</h3>
+                    </div>
+                    <div class="hoverzoom">
+                        <img class="box-img" src="images/img-sala-reuniao.png"/>
+
+                        <div class="retina box-img"><img class="box-img-icon" src="images/img-sala-reuniao-icon.png"
+                                                         alt=""></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="width:100%">
                     <div class="box-servicos-header">
                         <h3>Sala de Reuniões</h3>
                     </div>
-                    <div class="hoverzoom"><img class="box-img" src="images/img-sala-reuniao.png"/>
+                    <div class="hoverzoom">
+                        <img class="box-img" src="images/img-sala-reuniao.png"/>
 
-                        <div class="retina"><img id="salareuniao" src="images/img-sala-reuniao-icon.png"/></div>
+                        <div class="retina box-img"><img class="box-img-icon" src="images/img-sala-reuniao-icon.png"
+                                                         alt=""></div>
                     </div>
                 </div>
             </div>
@@ -563,80 +521,9 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/custom.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy-n4cUtfZ1ZRkDp0EhfTf4paSmqceHWQ&callback=initMap"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script async type="text/javascript">
-    var map;
-    function initMap() {
-        var myLatLng = {lat: -29.691443, lng: -53.806831};
-
-        map = new google.maps.Map(document.getElementById('mapa'), {
-            center: myLatLng,
-            zoom: 16
-        });
-
-        var marker = new google.maps.Marker({
-            map: map,
-            position: myLatLng,
-            title: 'Hotel Humberto'
-        });
-
-    }
-</script>
-<script async>
-    $(document).ready(function () {
-        if ($(".banner-principal").length > 0) {
-            $(".banner-principal").owlCarousel({
-                autoplay: true,
-                //autoplayHoverPause: true,
-                dots: true,
-                nav: false,
-                loop: true,
-                items: 1,
-            });
-        }
-    });
-    $(document).ready(function () {
-        if ($(".slide-servicos-itens").length > 0) {
-            $(".slide-servicos-itens").owlCarousel({
-                autoplay: true,
-                //autoplayHoverPause: true,
-                dots: true,
-                nav: true,
-                navText: ['<div class="setas"><i class="fa fa-arrow-left"></i></div>', '<div class="setas"><i class="fa fa-arrow-right"></i></div>'],
-                loop: true,
-                items: 3,
-            });
-        }
-    });
-    $(document).ready(function () {
-        if ($(".slide-servicos-itens-xs-sm").length > 0) {
-            $(".slide-servicos-itens-xs-sm").owlCarousel({
-                autoplay: true,
-                //autoplayHoverPause: true,
-                dots: true,
-                nav: false,
-                loop: true,
-                items: 1,
-            });
-        }
-    });
-
-    $(document).ready(function () {
-        if ($(".owl-carousel-depoimentos").length > 0) {
-            $(".owl-carousel-depoimentos").owlCarousel({
-                autoplay: true,
-                //autoplayHoverPause: true,
-                dots: true,
-                nav: true,
-                loop: true,
-                navText: ['<div class="setas"><i class="fa fa-arrow-left"></i></div>', '<div class="setas"><i class="fa fa-arrow-right"></i></div>'],
-                items: 1,
-            });
-        }
-    });
 
 </script>
 <script async>
@@ -649,22 +536,7 @@
         });
     });
 </script>
-<script>
-    $(function () {
-        $("div#depoimento-1").css("display", "none");
-        $("div#depoimento-2").css("display", "none");
-        $("div#depoimento-1").addClass("active");
 
-        $("a").on("click", function (e) {
-            e.preventDefault();
-
-            $("div").removeClass("active");
-            var id = $(this).attr("href");
-            $("#" + id + "").addClass("active");
-
-        });
-    });
-</script>
 <script async>
     $(document).ready(function () {
 

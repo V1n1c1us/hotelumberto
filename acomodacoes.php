@@ -40,8 +40,8 @@
                 <div class="owl-carousel-acomodacoes">
                     <div class="owl-item">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <a href="images/acomodacoes/img-acomodacoes-1.jpg" data-lightbox="image-1">
-                                <img class="img-responsive" src="images/acomodacoes/thumb/img-acomd-thumb-1.jpg"
+                            <a href="images/acomodacoes/thumb/img-acomodacoes-1.jpg" data-lightbox="image-1">
+                                <img class="img-responsive" src="images/acomodacoes/img-acomodacoes-1.jpg"
                                      alt="Acomodações"/>
                             </a>
                         </div>
@@ -110,13 +110,10 @@
 
 <div class="clearfix"></div>
 <?php include('inc/footer.php'); ?>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="lightbox/dist/js/lightbox.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy-n4cUtfZ1ZRkDp0EhfTf4paSmqceHWQ&callback=initMap"></script>
 <script>
     $(document).ready(function () {
         if ($(".owl-carousel-acomodacoes").length > 0) {
@@ -131,24 +128,6 @@
             });
         }
     });
-</script>
-<script async type="text/javascript">
-    var map;
-    function initMap() {
-        var myLatLng = {lat: -29.691443, lng: -53.806831};
-
-        map = new google.maps.Map(document.getElementById('mapa'), {
-            center: myLatLng,
-            zoom: 16
-        });
-
-        var marker = new google.maps.Marker({
-            map: map,
-            position: myLatLng,
-            title: 'Hotel Humberto'
-        });
-
-    }
 </script>
 </body>
 </html>
